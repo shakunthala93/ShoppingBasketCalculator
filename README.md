@@ -102,11 +102,13 @@ All 6 unit tests passed successfully.
 
 
 
-\- Total: 6
+\- Total: 10
 
-\- Passed: 6
+\- Passed: 10
 
 \- Failed: 0
+
+\- Skipped: 0
 
 
 
