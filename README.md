@@ -122,5 +122,45 @@ All 6 unit tests passed successfully.
 
 \- Rejects a null basket.
 
+\## Project Design
 
+
+
+The application follows a simple layered structure.
+
+
+
+\### 1. Program.cs
+
+\- Accepts shopping items from the user.
+
+\- Passes the item list to the ShoppingBasket class.
+
+\- Displays the calculated total.
+
+\- Handles invalid input errors.
+
+
+
+\### 2. ShoppingBasket.cs
+
+\- Contains the CalculateTotal() method.
+
+\- Counts each item in the basket.
+
+\- Applies the required special offers.
+
+\- Validates item names and handles null input.
+
+
+
+\### 3. Unit Tests
+
+\- Uses xUnit framework.
+
+\- Tests individual item prices.
+
+\- Tests special offers.
+
+\- Tests empty basket and invalid inputs.
 
