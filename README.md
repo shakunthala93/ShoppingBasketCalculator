@@ -98,7 +98,7 @@ Navigate to the test project folder and run:
 
 
 
-All 6 unit tests passed successfully.
+All 10 unit tests passed successfully.
 
 
 
